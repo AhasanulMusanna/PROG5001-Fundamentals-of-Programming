@@ -20,8 +20,9 @@ public class Assessment1
         for(int i=0; i< NumberOfStudents; i++) {
             float temp = scanner.nextFloat();
             
-            if (temp < 0 || temp > 30) {
+            while (temp < 0 || temp > 30) {
                 System.out.println("Invalid Mark! Please Enter the Mark Again");
+                temp = scanner.nextFloat();
             }
             
             marks[i] = temp;
