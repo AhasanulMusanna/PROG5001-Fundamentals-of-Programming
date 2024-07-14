@@ -6,6 +6,7 @@
  */
 
 import java.util.Scanner ;
+import java.lang.Math ;
 
 public class Assessment1
 {
@@ -65,5 +66,22 @@ public class Assessment1
         float Mean = total / NumberOfStudents;
         
         System.out.println("The Average Mark for " + AssignmentName + " is: " + Mean);
+        
+        //Computing the Standard Deviation
+        float SummedDifferences = 0;
+        for(int i=0; i< NumberOfStudents; i++) {
+            SummedDifferences = SummedDifferences + (marks[i] - Mean)*(marks[i] - Mean);
+        }
+        
+        float Variance = SummedDifferences / NumberOfStudents;
+        
+        
+        double exp = 0.5;
+        
+        double StandardDeviation = Math.pow(Variance, exp);
+        
+        
+        System.out.println("The Standard Deviation for " + AssignmentName + " is: " + StandardDeviation);
+        
     }
 }
