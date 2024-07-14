@@ -65,7 +65,7 @@ public class Assessment1
         
         float Mean = total / NumberOfStudents;
         
-        System.out.println("The Average Mark for " + AssignmentName + " is: " + Mean);
+        System.out.println("The Average or Mean Mark for " + AssignmentName + " is: " + Mean);
         
         //Computing the Standard Deviation
         float SummedDifferences = 0;
