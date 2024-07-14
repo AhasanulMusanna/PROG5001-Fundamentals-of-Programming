@@ -1,9 +1,8 @@
-
 /**
  * Assessment1
  *
  * Ahasanul
- * V1
+ * V4
  */
 
 import java.util.Scanner ;
@@ -31,7 +30,7 @@ public class Assessment1
             marks[i] = temp;
         }
         
-        System.out.println("Marks of the Students");
+        System.out.println("Marks of the Students for " + AssignmentName + ":");
         for(int j=0; j<NumberOfStudents; j++){
             System.out.println(marks[j]);
         }
