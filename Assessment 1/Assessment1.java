@@ -54,5 +54,16 @@ public class Assessment1
         }
         
         System.out.println("The Lowest Mark for " + AssignmentName + " is: " + LowestMark);
+        
+        //Computing the Mean
+        float total = 0;
+        
+        for(int i=0; i< NumberOfStudents; i++) {
+            total = total + marks[i];
+        }
+        
+        float Mean = total / NumberOfStudents;
+        
+        System.out.println("The Average Mark for " + AssignmentName + " is: " + Mean);
     }
 }
