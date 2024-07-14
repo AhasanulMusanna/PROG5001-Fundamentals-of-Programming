@@ -1,8 +1,8 @@
 /**
- * Assessment1
- *
- * Ahasanul
- * V4
+ * PROG5001 - Fundamentals of Programming
+ * Assessment 1
+ * Ahasanul Kabir Musanna
+ * Student ID: 24352976
  */
 
 import java.util.Scanner ;
