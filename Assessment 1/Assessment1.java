@@ -15,6 +15,9 @@ public class Assessment1
         float[] marks = new float[NumberOfStudents];
         Scanner scanner = new Scanner(System.in);
         
+        System.out.println("Enter the Assignment Name: ");
+        String AssignmentName = scanner.nextLine();
+        
         System.out.println("Input Marks of the Students: ");
         
         for(int i=0; i< NumberOfStudents; i++) {

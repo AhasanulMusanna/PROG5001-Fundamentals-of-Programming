@@ -1,3 +1,32 @@
 #BlueJ package file
-#Thu Jul 11 13:58:45 AEST 2024
+editor.fx.0.height=737
+editor.fx.0.width=814
+editor.fx.0.x=360
+editor.fx.0.y=26
+objectbench.height=67
+objectbench.width=622
+package.divider.horizontal=0.6
+package.divider.vertical=0.8126582278481013
+package.editor.height=314
+package.editor.width=532
+package.editor.x=534
+package.editor.y=241
+package.frame.height=495
+package.frame.width=662
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
 project.charset=UTF-8
+readme.height=60
+readme.name=@README
+readme.width=49
+readme.x=10
+readme.y=10
+target1.height=70
+target1.name=HelloWorld
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=120
+target1.x=70
+target1.y=10
