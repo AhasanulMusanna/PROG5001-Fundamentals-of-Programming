@@ -34,5 +34,17 @@ public class Assessment1
         for(int j=0; j<NumberOfStudents; j++){
             System.out.println(marks[j]);
         }
+        
+        //Computing the Highest Mark
+        float HighestMark = marks[0];
+        for(int i=1; i< NumberOfStudents; i++) {
+            if (marks[i] > HighestMark) {
+                HighestMark = marks[i];
+            }
+        }
+        
+        System.out.println("The Highest Mark for " + AssignmentName + " is: " + HighestMark);
+        
+        
     }
 }
