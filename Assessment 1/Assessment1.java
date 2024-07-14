@@ -45,6 +45,14 @@ public class Assessment1
         
         System.out.println("The Highest Mark for " + AssignmentName + " is: " + HighestMark);
         
+        //Computing the Lowest Mark
+        float LowestMark = marks[0];
+        for(int i=1; i< NumberOfStudents; i++) {
+            if (marks[i] < LowestMark) {
+                LowestMark = marks[i];
+            }
+        }
         
+        System.out.println("The Lowest Mark for " + AssignmentName + " is: " + LowestMark);
     }
 }
