@@ -6,7 +6,7 @@
  */
 
 import java.util.Scanner ;
-import java.lang.Math ;
+
 
 public class Assessment1
 {
@@ -75,10 +75,7 @@ public class Assessment1
         
         float Variance = SummedDifferences / NumberOfStudents;
         
-        
-        double exp = 0.5;
-        
-        double StandardDeviation = Math.pow(Variance, exp);
+        double StandardDeviation = Math.sqrt(Variance);
         
         
         System.out.println("The Standard Deviation for " + AssignmentName + " is: " + StandardDeviation);
