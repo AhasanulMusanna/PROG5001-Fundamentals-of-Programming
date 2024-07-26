@@ -1,0 +1,6 @@
+Name,age,weight,height
+Atie,30,50,1.6
+Vinh,45,67,1.7
+John,20,80,1.8
+Mark,40,70,1.75
+Zane,50,80,1.7
